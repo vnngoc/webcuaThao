@@ -13,7 +13,7 @@ function About() {
         alt="Meeo avatar"
       />
       <h1 className='Heading' >HÉ LU EM NÈE</h1>
-      <p className="context">Web cho bé Thảo xong roài đâyyy</p>
+      <p className="context">Web cho em xong roài đâyyy</p>
       <p className="context">Web hỏng có nhiều thứ nhma anh thấy nó tếu nheaa</p>
       <p className="context">Có mấy trang thoai nèee </p>
       </div>
