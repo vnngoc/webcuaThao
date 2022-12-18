@@ -34,21 +34,22 @@ h1.context {
   color: #FFCC99;
   font-size: 50px;
 }
-.Heading{
-    font-family:Parkavenue, cursive;
-    font-size:70px;
-    background-image: 
-      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
-    -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;  
-    animation: rainbow-animation 500s linear infinite;
+.{
+  margin: 1rem auto;
+  font-size: 70px;
+  animation: neon 1s ease infinite;
+}
+@keyframes neon {
+  0%,
+  100% {
+      text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+      color: #f5efcb;
   }
-  
-  @keyframes rainbow-animation {
-      to {
-          background-position: 4500vh;
-      }
+  50% {
+      text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+      color: #eda0d3;
   }
+}
 
 .complete {
   text-decoration: line-through;
