@@ -17,7 +17,7 @@ function Header() {
           style={{ display: "flex", alignItems: "center" }}
         >
 
-         <p className='contexttt'>CODE BY AKI A.K.A MIN NGỌT</p>
+         <p className='contexttt'>FROM MINNGOT WITH LOVE</p>
             
              
             
